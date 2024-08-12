@@ -1,8 +1,15 @@
+.container_login {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+    }
+
 .card-header{
+    text-align: center;
     border: 1px solid red;
+    
 }
 
-
-.container_login{
-   border: 1px solid black; 
-}

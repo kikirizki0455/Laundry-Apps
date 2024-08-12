@@ -32,7 +32,8 @@ class Pages extends BaseController
     public function login()
     {
         $data = [
-            'title' => 'Login | Laundry Dustira'
+            'title' => 'Login | Laundry Dustira',
+            'showNav' => false
         ];
         echo view('/Login', $data);
     }
